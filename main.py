@@ -133,7 +133,7 @@ with open(grade_file_path, "r") as grade_file, open(old_grade_file_path, "r") as
 integrated_grade_info += f"\n" f"MD5：{encrypted_integrated_grade_info}"
 
 # 获取未公布成绩的课程和异常的课程
-selected_courses_filtering = get_selected_courses(student_client)
+
 
 # 工作流信息
 workflow_info = (
